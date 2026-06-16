@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgroVida</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="topo">
+    <h1>🌱 AgroVida</h1>
+    <p>Conectando você ao campo e à natureza</p>
+
+    <div class="acessibilidade">
+      <button onclick="aumentarFonte()">A+</button>
+      <button onclick="diminuirFonte()">A-</button>
+      <button onclick="alternarContraste()">Contraste</button>
+      <button onclick="modoLeitura()">Leitura</button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30" alt="Campo verde">
+    <div class="hero-texto">
+      <h2>Vida no campo com tecnologia e sustentabilidade</h2>
+      <button>Saiba mais</button>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre o AgroVida</h2>
+    <p>
+      O AgroVida promove soluções sustentáveis para o agronegócio,
+      conectando tecnologia, produtividade e respeito ao meio ambiente.
+    </p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="cards">
+      <div class="card">🌾 Consultoria Agrícola</div>
+      <div class="card">🚜 Tecnologia no Campo</div>
+      <div class="card">🌱 Sustentabilidade</div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0">
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+      <img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 AgroVida - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
